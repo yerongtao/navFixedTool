@@ -1,6 +1,4 @@
-/*       navFixed       */
-/*  author : Jasin Yip  */
-/*  version: 1.0.2      */
+/*  navFixedTool by yerongtao  */
 
 $.fn.navFixed = function(){
 	var $_this = $(this),
@@ -10,6 +8,7 @@ $.fn.navFixed = function(){
 		_navPosition = $_this.prev().outerHeight(true);
 	
 	_if();
+
 
 	$(document).scroll( function() {
 		_topPosition = $(document).scrollTop();
